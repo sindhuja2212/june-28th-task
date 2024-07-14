@@ -1,0 +1,193 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        table,th,tr,td{
+            border: 1px solid black;
+        }
+    </style>
+</head>
+<body>
+   
+
+    
+
+    <script>
+
+    //  var fst = document.createElement("div")
+     var heading = document.createElement("h1")
+     heading.innerText="Sindhuja's Restaurant"
+     heading.style.textAlign="center"
+     heading.style.backgroundColor="green"
+     heading.style.color="white"
+    document.body.appendChild(heading)
+     var hr1 = document.createElement("hr")
+     heading.appendChild(hr1)
+
+     var marq = document.createElement("marquee")
+     marq.innerText="50% discount today"
+     heading.appendChild(marq)
+     marq.style.color="red"
+
+     var image = document.createElement("img")
+     image.setAttribute("src","https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS9Sxu58mG6pCfh3jPA77ioz0r-PSNAzCQLzw&s")
+     document.body.appendChild(image)
+     image.setAttribute("width",350)
+     
+    //  fst.appendChild(image)
+
+    var image2 = document.createElement("img")
+    image2.setAttribute("src","https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQyG8gid-v-nHX4-d-4PXPzZDxYxkmQddAExg&s")
+    document.body.appendChild(image2)
+    image2.setAttribute("width",350)
+
+    
+    var image = document.createElement("img")
+     image.setAttribute("src","https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS9Sxu58mG6pCfh3jPA77ioz0r-PSNAzCQLzw&s")
+     document.body.appendChild(image)
+     image.setAttribute("width",350)
+
+     var image2 = document.createElement("img")
+    image2.setAttribute("src","https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQyG8gid-v-nHX4-d-4PXPzZDxYxkmQddAExg&s")
+    document.body.appendChild(image2)
+    image2.setAttribute("width",350)
+
+    var tab=document.createElement("table")
+    document.body.appendChild(tab)
+
+    tab.style.marginLeft="30%"
+    tab.setAttribute("width",500)
+    tab.setAttribute("height",300)
+
+    var row=document.createElement("tr")
+    tab.appendChild(row)
+
+    var th_data1=document.createElement("th")
+    th_data1.innerText="Veg"
+    row.appendChild(th_data1)
+
+    var th_cost=document.createElement("th")
+    th_cost.innerText="Cost"
+    row.appendChild(th_cost)
+
+
+    var th_data2= document.createElement("th")
+    th_data2.innerText="NON-veg"
+    row.appendChild(th_data2)
+
+    var th_data3=document.createElement("th")
+    th_data3.innerText="Cost"
+    row.appendChild(th_data3)
+
+    var row1=document.createElement("tr")
+    tab.appendChild(row1)
+
+    var td = document.createElement("td")
+    td.innerText="Veg fried rice"
+    row1.appendChild(td)
+
+    var td1 = document.createElement("td")
+    td1.innerText="$ 70/-"
+    row1.appendChild(td1)
+
+    var td2=document.createElement("td")
+    td2.innerText="Chiken fried rice"
+    row1.appendChild(td2)
+
+    
+    var td1 = document.createElement("td")
+    td1.innerText="$ 100/-"
+    row1.appendChild(td1)
+
+
+    var row2 = document.createElement("tr")
+    tab.appendChild(row2)
+
+    var td_veg = document.createElement("td")
+    td_veg.innerText="Veg manchuria"
+    row2.appendChild(td_veg)
+
+    
+    var td_veg1 = document.createElement("td")
+    td_veg1.innerText="$ 80/-"
+    row2.appendChild(td_veg1)
+
+    
+    var td_veg = document.createElement("td")
+    td_veg.innerText="chicken manchuria"
+    row2.appendChild(td_veg)
+
+    var td_veg1 = document.createElement("td")
+    td_veg1.innerText="$ 80/-"
+    row2.appendChild(td_veg1)
+
+
+    var imgveg = document.createElement("img")
+   document.body.appendChild(imgveg)
+
+   imgveg.setAttribute("src","https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSB5_uIkJT3SgP44VHzz2smPWEIby-aWhPlRA&s")
+
+   var imgnonveg = document.createElement("img")
+   document.body.appendChild(imgnonveg)
+
+   imgnonveg.setAttribute("src","https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTmb_G5RNJrAx6g3X5F9JRofN5tzQKu7qlvPg&s")
+
+
+
+//    var details = document.createElement("details")
+//    var summary = document.createElement("summary")
+//    summary.innerText = "VEG"
+//    for(i = 0; i <3; i++){
+//     var image = document.createElement("img")
+//    image.src = ""
+   
+//    details.appendChild(image)
+//    }
+//    details.appendChild(summary)
+
+   
+//    document.body.appendChild(details)
+
+
+   var details = document.createElement("details")
+   var summary = document.createElement("summary")
+   summary.innerText = "VEG"
+   var image = document.createElement("img")
+   image.src = "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSewNIXtYQnExeTfe9MAHoMnSdOIioG_fmQDA&s"
+   var image1 = document.createElement("img")
+   image1.src = "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSewNIXtYQnExeTfe9MAHoMnSdOIioG_fmQDA&s"
+
+   details.appendChild(image)
+   details.appendChild(image1)
+   details.appendChild(summary)
+   document.body.appendChild(details)
+   
+
+   
+   var details = document.createElement("details")
+   var summary = document.createElement("summary")
+   summary.innerText = "NON - VEG"
+   var image = document.createElement("img")
+   image.src = "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTQ2eGxwHMiK2guuMRbYxsoM7jNr2-k1mKj-w&s"
+   var image1 = document.createElement("img")
+   image1.src = "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTQ2eGxwHMiK2guuMRbYxsoM7jNr2-k1mKj-w&s"
+
+   details.appendChild(image)
+   details.appendChild(image1)
+   details.appendChild(summary)
+   document.body.appendChild(details)
+
+
+    
+
+
+
+
+
+
+    </script>
+</body>
+</html>
